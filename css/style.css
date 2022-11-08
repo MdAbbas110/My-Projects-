@@ -1,0 +1,121 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-shadow: border-box;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 8rem;
+    font-family: "Orbitron", Helvetica, sans-serif;
+    font-weight: 600;
+}
+.list-item{
+    list-style: none;
+    margin: 0rem 1rem;
+}
+.list-item:nth-child(1){
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-decoration: underline;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-group{
+    display: flex;
+    align-items: center;
+}
+.nav-button{
+    cursor: pointer;
+}
+.square{
+    position: relative;
+    bottom: 0px;
+    left: 100px;
+}
+
+.hero-image{
+    width: 450px;
+}
+button{
+    padding: 0.5rem 3rem;
+    background-color: transparent;
+    border-radius: 0.75rem;
+    font-family: "Orbitron", Helvetica, sans-serif;
+}
+.search-icon{
+    margin: 20px;
+}
+.globe{
+    position: relative;
+    align-items: center;
+    margin-left: 330px;
+    bottom: 150px;
+}
+.square{
+    position: relative;
+    top: 180px;
+    left: 40vh;
+}
+.star{
+    position:absolute;
+    top: 160px;
+    left: 180vh;
+
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+}
+.hero-container-right{
+    position: relative;
+    top: 100px;
+    } 
+.hero-img{
+    position: absolute;
+    left: 125px;
+    top: 150px;
+}
+.hero-heading{
+    font-family: "Orbitron", Helvetica, sans-serif;
+    font-size: 2.5rem;
+    position: relative;
+    align-items: center;
+    right: 90px;
+    bottom: 70px;
+}
+
+.hero-description{
+    position: relative;
+    right: 60px;
+    bottom: 50px;
+    font-size: 0.8rem;
+}
+
+.icons{
+    position: relative;
+    top: 100px;
+    left: 145px;
+    margin-top: 15px;
+}
+
+.contact-heading{
+    position: absolute;
+    top: 200px;
+    left: 165px;
+    color: grey;
+    font-size: 18px;
+}
+.button-join{
+    color: #fff;
+    background-color: #000;
+    margin-left: 15px;
+}
+.button-email{
+    color: gray;
+    border-width: 2px;
+}
