@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "crossorigin";
+  }
+  /* .container{
+    height: 140vh;
+  } */
+  .navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2.5rem 2.5rem;
+    font-family: "crossorigin",Helvetica, sans-serif;
+    font-weight: 600;
+  }
+   .list-item{
+    list-style: none;
+    margin: 0 1rem;
+  }
+  .list-item:nth-child(1){
+    font-family: "crossorigin",Helvetica, sans-serif;
+    font-weight: 500; 
+    color: #000;
+  }
+  .list{
+    display: flex;
+    font-size: 1.2em;
+    justify-content: space-between;
+    align-items: center;
+    color: #bbbbbb;
+  }
+  .grow-list{
+    margin-right: 62vh;
+  }
+  .button-group{
+    position: relative;
+    left: 15px;
+    top: 15px;
+  }
+  .nav-button{
+    padding: 20px 40px;
+    border-radius:14px;
+    background-color: #5955b3;
+    color: #fff;
+    border: none;
+    font-family:"crossorigin" ;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .banner-container{
+    display: flex;
+    flex-direction: row;
+  }
+  .heading-text{
+    position: relative;
+    top: 18vh;
+    left: 2.5rem;
+    font-family: "crossorigin",Helvetica, sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #3c2f60;
+  }
+  span{
+    color: #5a56b3;
+  }
+.description{
+    position: relative;
+    top: 25vh;
+    left: 2.5rem;
+    font-family: "crossorigin",Helvetica, sans-serif;
+    color: #bbbbbb;
+    font-weight: 300;
+    font-size: 1rem;
+}
+.nav-button.btn{
+    position: relative;
+    top: 30vh;
+    left: 2.5rem;
+    font-family: "crossorigin",Helvetica, sans-serif;
+
+}
